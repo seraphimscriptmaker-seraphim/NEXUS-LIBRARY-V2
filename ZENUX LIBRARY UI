@@ -83,7 +83,6 @@ local Input = Instance.new("TextButton")
 local Input_Roundify_4px = Instance.new("ImageLabel")
 local Windows = Instance.new("Frame")
 
-
 imgui.Name = "imgui"
 imgui.Parent = game:GetService("CoreGui") or gethui()
 
@@ -92,7 +91,6 @@ Prefabs.Parent = imgui
 Prefabs.BackgroundColor3 = Color3.new(1, 1, 1)
 Prefabs.Size = UDim2.new(0, 100, 0, 100)
 Prefabs.Visible = false
-
 
 Label.Name = "Label"
 Label.Parent = Prefabs
